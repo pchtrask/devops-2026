@@ -4,7 +4,9 @@ on: [push]
 jobs:
   build-python:
     runs-on: ubuntu-latest
-    working-directory: ${{ github.workspace }}/lesson2
+    working-directory: ./lesson2
+
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v5
