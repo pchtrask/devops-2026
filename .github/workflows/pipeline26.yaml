@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build-python:
     runs-on: ubuntu-latest
-    working-directory: ./lesson2
+ #   working-directory: ./lesson2
 
 
     steps:
